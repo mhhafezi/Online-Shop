@@ -1,0 +1,16 @@
+2021-09-26 18:24:08,265 - my_log - WARNING - Someone tried to register as an admin with an insecure password.
+2021-09-26 18:24:33,351 - my_log - INFO - Admin created successfully.
+2021-09-26 18:25:32,505 - my_log - WARNING - Someone tried to register as admin.
+2021-09-26 18:26:29,448 - my_log - ERROR - admin entered the wrong password 3 times.
+2021-09-26 18:26:40,756 - my_log - INFO - Admin logged in
+2021-09-26 18:27:06,582 - my_log - INFO - Admin add product ee
+2021-09-26 18:27:49,248 - my_log - INFO - Admin add product f
+2021-09-26 18:30:29,593 - my_log - INFO - send new invoice to customer_name: 09120001234
+2021-09-26 18:31:35,453 - my_log - INFO - send new invoice to customer_name: 09120001234
+2021-09-26 18:32:07,306 - my_log - ERROR - 09120001234 entered the wrong password 3 times, 09120001234 is Blocked.
+2021-09-26 18:33:33,919 - my_log - INFO - Admin logged in
+2021-09-26 18:33:48,372 - my_log - INFO - Admin activated customer_09120001234
+2021-09-26 18:35:29,428 - my_log - WARNING - 09120001235 requested purchase from zero inventory.
+2021-09-26 18:35:40,199 - my_log - INFO - send new invoice to customer_name: 09120001235
+2021-09-26 18:36:19,093 - my_log - WARNING - Inventory is empty for product_id:8
+2021-09-26 18:36:22,659 - my_log - INFO - send new invoice to customer_name: 09120001235

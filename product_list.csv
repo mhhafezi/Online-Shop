@@ -1,0 +1,8 @@
+product_id,barcode,price,brand,product_name,inventory_number
+1,1111,1200,apple,ipad,56
+2,2222,2000,apple,mobile,0
+3,3333,600,LG,TV,17
+4,4444,500,FaberCastel,pen,70
+5,5555,20,papco,book,205
+6,6666,80,Dell,laptop,179
+7,7777,456,HP,tablet,377
