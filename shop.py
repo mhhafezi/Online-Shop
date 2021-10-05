@@ -375,7 +375,7 @@ class Shop:
                     for product in products_list:
                         if product_name == product["product_name"] and brand == product["brand"]:
                             product['product_count'] = int(product['product_count']) - int(quantity)
-                            if item['product_count'] == 0:
+                            if product['product_count'] == 0:
                                 print(f"{product_name} with brand {brand} SOLD OUT!!")
                                 my_log.logger.warning(f"{product_name}'s inventory is zero in {shop}")
 

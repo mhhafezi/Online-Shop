@@ -1,0 +1,74 @@
+{
+     "ponzheh": {
+          "costumers": [
+               "09120212235"
+          ],
+          "block_customers": [],
+          "products": [
+               {
+                    "product_name": "black_pen",
+                    "brand": "kian",
+                    "product_count": "30",
+                    "product_price": "20000",
+                    "barcode": "1234",
+                    "expiration_date": "12-12-2040"
+               },
+               {
+                    "product_name": "red_pen",
+                    "brand": "kian",
+                    "product_count": 30,
+                    "product_price": "21000",
+                    "barcode": "1235",
+                    "expiration_date": "12-12-2041"
+               },
+               {
+                    "product_name": "blue_pen",
+                    "brand": "kian",
+                    "product_count": "20",
+                    "product_price": "10000",
+                    "barcode": "1236",
+                    "expiration_date": "02-01-2021"
+               }
+          ],
+          "invoices": [
+               {
+                    "market_name": "ponzheh",
+                    "costumer_phone": "09120212235",
+                    "products": [
+                         {
+                              "product": "red_pen",
+                              "brand": "kian",
+                              "single_price": "21000",
+                              "count": "10",
+                              "price": 210000
+                         },
+                         {
+                              "product": "red_pen",
+                              "brand": "kian",
+                              "single_price": "21000",
+                              "count": "10",
+                              "price": 210000
+                         }
+                    ],
+                    "total_price": 420000,
+                    "date": "2021-10-05 12:35:04.991211"
+               }
+          ],
+          "username": "09120212223",
+          "password": "beac185ceaf2ffd2c9a7639f9a90b735e3d4ee3ad39db26b522947316fa757a2",
+          "shop": "ponzheh",
+          "start": "09:00:00",
+          "end": "23:59:59"
+     },
+     "odin": {
+          "costumers": [],
+          "block_customers": [],
+          "products": [],
+          "invoices": [],
+          "username": "09120212234",
+          "password": "895d29c75e4181c1fc903650c46d923bb7414fde4f140054bf8e383c81c60d87",
+          "shop": "odin",
+          "start": "08:00:00",
+          "end": "20:00:00"
+     }
+}

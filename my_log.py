@@ -11,7 +11,7 @@ f_handler.setLevel(logging.ERROR)
 f_handler.setLevel(logging.INFO)
 # Create formatters and add it to handlers
 c_format = logging.Formatter('%(levelname)s - %(message)s')
-f_format = logging.Formatter('%(asctime)s - %(process)d - %(levelname)s - %(message)s %d-%b-%y %H:%M:%S')
+f_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 c_handler.setFormatter(c_format)
 f_handler.setFormatter(f_format)
 # Add handlers to the logger

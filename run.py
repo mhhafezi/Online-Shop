@@ -56,7 +56,7 @@ def main_menu():
     print('2. Sign In')
     print('3. Exit')
     print("=" * 25)
-    choice = input("Enter your choice: ")
+    choice = input("Enter your choice: \n")
     if choice == "1":
         register_user()
     elif choice == "2":
@@ -82,7 +82,7 @@ def manager_menu(username):
     7. View list of all costumers\n8. Block a costumer\n
     9. Back to main menu\n10. Exit\n""")
     print("=" * 25)
-    choice = input('What is your choice: ')
+    choice = input('What is your choice: \n')
     if choice == '1':
         add_product(username)
         manager_menu(username)
@@ -134,7 +134,7 @@ def customer_menu(username):
         1. View previous invoices\n2. Buy Products\n
         3. Back to main menu\n4. Exit\n""")
     print("=" * 25)
-    choice = input('What is your choice: ')
+    choice = input('What is your choice: \n')
     if choice == '1':
         Customer.view_invoices(username)
         customer_menu(username)
@@ -165,7 +165,7 @@ def shopping(costumer_username_):
         print('5. Back to last menu')
         print('6. Exit')
         print("=" * 25)
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice: \n")
         if choice == '1':
             Shop.shop_products(shop)
             customer_menu_in_chosen_shop(costumer_username, shop)
@@ -189,7 +189,7 @@ def shopping(costumer_username_):
                 print('1. Confirm purchase')
                 print('2. Edit purchase')
                 print("=" * 25)
-                choice = input("Enter your choice: ")
+                choice = input("Enter your choice: \n")
                 if choice == '1':
                     error = Shop.sell_products_shop(shop, costumer_username, cart)
                     if not error:
@@ -223,7 +223,7 @@ def shopping(costumer_username_):
             3. Select a shop\n4. View last invoice\n
             5. Go Back to the last menu\n6. Exit\n""")
         print("=" * 25)
-        choice = input('What is your choice: ')
+        choice = input('What is your choice: \n')
         if choice == '1':
             Shop.open_shops()
             customer_menu_before_choosing_shop(costumer_username)
@@ -253,10 +253,9 @@ def register_manager_shop():
     """
     inputs the shop's information and creates the shop
     """
-    shop = ''
+    shop, password = '', ''
     start_work_time = '1'
     end_work_time = '0'
-    password = '0'
     phone_number = input("Enter your phone number 'Notice that it is gonna be used as your username': ")
     while not validation_phone_number(phone_number):
         print("Wrong phone number!")
@@ -300,7 +299,7 @@ def register_user():
     print('3. Go back to main menu without registering')
     print('4. Exit')
     print("=" * 25)
-    choice = input("Enter your choice: ")
+    choice = input("Enter your choice: \n")
     if choice == '1':
         register_manager_shop()
         main_menu()

@@ -1,0 +1,32 @@
+2021-10-05 12:24:05,999 - my_log - WARNING - 09120212223 entered wrong repeated password!'
+2021-10-05 12:24:45,029 - my_log - INFO - manager with username: 09120212223 added to the users.
+2021-10-05 12:24:45,029 - my_log - INFO - manager with username:09120212223 has signed up for ponzheh shop
+2021-10-05 12:25:30,478 - my_log - INFO - manager with username: 09120212234 added to the users.
+2021-10-05 12:25:30,478 - my_log - INFO - manager with username:09120212234 has signed up for odin shop
+2021-10-05 12:25:44,824 - my_log - INFO - 09120212223 is not a valid and it already exists!
+2021-10-05 12:25:44,824 - my_log - INFO - 09120212223 already registered!
+2021-10-05 12:26:24,373 - my_log - INFO - customer with username: 09120212235 added to the users.
+2021-10-05 12:26:24,420 - my_log - INFO - Customer with username:09120212235 was signed up!
+2021-10-05 12:27:06,167 - my_log - WARNING - There are no products in ponzheh shop to check!
+2021-10-05 12:27:06,167 - my_log - WARNING - No Such File or Directory as products.txt
+2021-10-05 12:27:06,167 - my_log - INFO - manager with username:09120212223 signed in
+2021-10-05 12:27:47,413 - my_log - INFO - ponzheh shop added black_pen product with exp date: 12-12-2040
+2021-10-05 12:28:26,660 - my_log - INFO - ponzheh shop added red_pen product with exp date: 12-12-2041
+2021-10-05 12:28:44,165 - my_log - INFO - ponzheh you do not have any inventory crisis!
+2021-10-05 12:28:48,575 - my_log - INFO - The ponzheh's invoice list is empty!
+2021-10-05 12:28:48,575 - my_log - WARNING - No Such File or Directory as invoices.txt
+2021-10-05 12:29:27,668 - my_log - INFO - costumer with username:09120212235 signed in
+2021-10-05 12:29:32,163 - my_log - INFO - The 09120212235's invoice list is empty!
+2021-10-05 12:29:32,164 - my_log - WARNING - No Such File or Directory as invoices.txt
+2021-10-05 12:29:50,170 - my_log - INFO - printed shops with 'ponzh'!
+2021-10-05 12:30:27,117 - my_log - INFO - Inventory check: red_pen with brand kian is available in ponzheh!
+2021-10-05 12:34:24,637 - my_log - INFO - costumer with username:09120212235 signed in
+2021-10-05 12:34:56,274 - my_log - INFO - Inventory check: red_pen with brand kian is available in ponzheh!
+2021-10-05 12:35:04,991 - my_log - INFO - 09120212235's invoice in ponzheh produced!
+2021-10-05 12:35:04,991 - my_log - INFO - 09120212235 added to list of customers in ponzheh shop!
+2021-10-05 12:35:04,998 - my_log - INFO - Costumer with 09120212235 just purchased in ponzheh shop!
+2021-10-05 12:36:04,917 - my_log - INFO - ponzheh you do not have any inventory crisis!
+2021-10-05 12:36:04,918 - my_log - INFO - manager with username:09120212223 signed in
+2021-10-05 12:36:10,171 - my_log - INFO - Printed list of customers for ponzheh!
+2021-10-05 12:37:09,322 - my_log - INFO - ponzheh shop added blue_pen product with exp date: 02-01-2021
+2021-10-05 12:37:19,173 - my_log - INFO - Printed list of customers for ponzheh!

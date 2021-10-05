@@ -15,15 +15,12 @@ def validation_time(time1):
     regex = r'^\d{2}:\d{2}:\d{2}\s*$'
     if re.search(regex, time1):
         return True
-    my_log.logger.info(f"{time1} is not a valid time!")
 
 
 def validation_password(password):
     regex = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!#%*?&]{6,20}$"
     if re.search(regex, password):
         return True
-    else:
-        my_log.logger.info(f"{password} is not a valid password!")
 
 
 def username_exists(username):
