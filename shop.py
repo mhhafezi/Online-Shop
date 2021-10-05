@@ -328,7 +328,7 @@ class Shop:
         shops = FileHandler().read()
         if shop in shops.keys():
             if customer_username not in shops[shop]['block_customers']:
-                chosen = {"Shop's Name": shops[shop]['shop'],
+                chosen = {"Shop Name": shops[shop]['shop'],
                           'Start Working': shops[shop]['start'],
                           'End Working': shops[shop]['end']}
                 return chosen
